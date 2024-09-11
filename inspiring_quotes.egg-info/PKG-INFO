@@ -1,10 +1,45 @@
 Metadata-Version: 2.1
 Name: inspiring-quotes
-Version: 0.1
-Summary: A simple Python package for inspirational quotes.
-Author: Your Name
-Author-email: your.email@example.com
-Classifier: Programming Language :: Python :: 3
+Version: 1.5
+Summary: A simple Python package for retrieving random inspirational quotes.
+Home-page: https://github.com/cyberdeeb/inspiring-quotes
+Author: cyberdeeb
+Author-email: abrahamdeeb@gmail.com
+Keywords: quotes inspirational motivational wisdom positivity self-improvement
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
 License-File: LICENSE
+
+# inspiring_quotes
+
+A simple Python package that provides random inspirational quotes. With a collection of 300 quotes, this library is perfect for adding a touch of motivation to your projects.
+
+## Features
+
+- Retrieve a random inspirational quote from a JSON file.
+- Simple and easy to retrieve quote and author
+- Over 300 inspiring quotes available
+
+## Import the Library
+
+```python
+from inspiring_quotes.quotes import get_random_quote
+```
+
+## Get a Random Quote
+
+```python
+quote = get_random_quote()
+if quote:
+    print(f"Quote: {quote['quote']}\nAuthor: {quote['author']}")
+else:
+    print("No quotes available.")
+```
