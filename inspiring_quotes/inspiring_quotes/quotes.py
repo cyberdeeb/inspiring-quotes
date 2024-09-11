@@ -12,5 +12,3 @@ def get_random_quote():
     except json.JSONDecodeError:
         print("Error decoding JSON. Please check the file format.")
         return None
-    
-
