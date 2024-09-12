@@ -1,20 +1,18 @@
 Metadata-Version: 2.1
 Name: inspiring-quotes
-Version: 0.6.0
+Version: 0.6.5
 Summary: A simple Python package for retrieving random inspirational quotes.
 Home-page: https://github.com/cyberdeeb/inspiring-quotes
 Author: cyberdeeb
 Author-email: abrahamdeeb@gmail.com
 Keywords: quotes inspirational motivational wisdom positivity self-improvement
-Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
-Requires-Python: >=3
+Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
