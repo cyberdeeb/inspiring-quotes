@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='inspiring_quotes',
-    version='0.8.5',
+    version='0.2.5',
     description='A simple Python package for retrieving random inspirational quotes.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
