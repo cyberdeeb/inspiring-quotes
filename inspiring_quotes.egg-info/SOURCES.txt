@@ -3,6 +3,7 @@ README.md
 setup.py
 inspiring_quotes/__init__.py
 inspiring_quotes/quotes.py
+inspiring_quotes/quotes_list.json
 inspiring_quotes.egg-info/PKG-INFO
 inspiring_quotes.egg-info/SOURCES.txt
 inspiring_quotes.egg-info/dependency_links.txt

@@ -11,7 +11,7 @@ A simple Python package that provides random inspirational quotes. With a collec
 ## Import the Library
 
 ```python
-from inspiring_quotes1.quotes import get_random_quote
+from inspiring_quotes import get_random_quote
 ```
 
 ## Get a Random Quote

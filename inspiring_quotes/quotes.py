@@ -15,4 +15,3 @@ def get_random_quote():
         print("Error decoding JSON. Please check the file format.")
         return None
 
-print(get_random_quote())
