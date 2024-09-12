@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: inspiring-quotes
-Version: 0.6.5
+Version: 0.8.5
 Summary: A simple Python package for retrieving random inspirational quotes.
 Home-page: https://github.com/cyberdeeb/inspiring-quotes
 Author: cyberdeeb
@@ -29,7 +29,7 @@ A simple Python package that provides random inspirational quotes. With a collec
 ## Import the Library
 
 ```python
-from inspiring_quotes.quotes import get_random_quote
+from inspiring_quotes1.quotes import get_random_quote
 ```
 
 ## Get a Random Quote
