@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='inspiring_quotes',
+    name='inspiring_quotes1',
     version='0.6.5',
     description='A simple Python package for retrieving random inspirational quotes.',
     long_description=open('README.md').read(),
@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'inspiring_quotes': ['quotes_list.json'],
+        'inspiring_quotes1': ['quotes_list.json'],
     },
     classifiers=[
         'Intended Audience :: Developers',
